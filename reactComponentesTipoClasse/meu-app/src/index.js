@@ -4,6 +4,7 @@ import App from './components/App';
 import App2 from './components/App2';
 import { App3 } from './components/App3';
 import { App4 } from './components/App4';
+import { App5 } from './components/App5';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,7 +19,9 @@ ReactDOM.render(
     {/* Primeiros usos de estado em React */}
     {/* <App3></App3> */}
     {/* Renderização condicional em React */}
-    <App4></App4>
+    {/* <App4></App4> */}
+    {/* Estudando ciclo de vida de componentes em React */}
+    <App5></App5>
   </React.StrictMode>,
   document.getElementById('root')
 );
