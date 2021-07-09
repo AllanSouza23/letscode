@@ -1,6 +1,7 @@
 import React from "react";
 
 class App extends React.Component {
+  // O método render() dispõe em tela uma estrutura, podendo ser, por exemplo, tags em HTML
   render() {
     return (
       // Quando há mais de um elemento a ser renderizado, devemos envolvê-lo por uma div, ou até mesmo com um fragmento, ou seja, uma tag "fantasma", conforme abaixo:
