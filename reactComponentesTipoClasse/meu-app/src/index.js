@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import App2 from './components/App2';
+import { App3 } from './components/App3';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* As props são passadas como atributos de uma tag/componente no React */}
-    <App2 title="Título">
+    {/* <App2 title="Título">
       Conteúdo
     </App2>
     <App2 title="Título 2">
       Conteúdo 2
-    </App2>
+    </App2> */}
+    <App3></App3>
   </React.StrictMode>,
   document.getElementById('root')
 );
