@@ -1,4 +1,4 @@
-// Ao declarar variáveis, podemos utilizar: var, let ou const. Para var, seu escopo escapa de uma função, podendo ser acessada em outras partes do código. Já para o let, o escopo é de bloco, ou seja, só existe dentro de um espaço como uma função e ao seu término no pode ser acessada de fora. Por fim, a variável declarada com o const, como o próprio nome já diz, possui um valor constante, não podendo ser alterado ao decorrer do código.
+// Variáveis são espaços que podemos alocar em memória, que podem ser ou não alterados conforme o programa seja executado. Ao declarar variáveis, podemos utilizar: var, let ou const. Para var, seu escopo escapa de uma função, podendo ser acessada em outras partes do código. Já para o let, o escopo é de bloco, ou seja, só existe dentro de um espaço como uma função e ao seu término no pode ser acessada de fora. Por fim, a variável declarada com o const, como o próprio nome já diz, possui um valor constante, não podendo ser alterado ao decorrer do código.
 
 // Tipos numéricos
 let a = 10;
