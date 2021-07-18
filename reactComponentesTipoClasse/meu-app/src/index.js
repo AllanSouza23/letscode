@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { AppNew } from './components/AppNew';
 // import { Formulario } from './components/Formulario';
-import { Hello } from './components/Hello';
+// import { Hello } from './components/Hello';
 // import App from './components/App';
 // import App2 from './components/App2';
 // import { App3 } from './components/App3';
@@ -32,9 +33,12 @@ ReactDOM.render(
     // </Lista> */}
     {/* Formularios em React */}
     {/* // <Formulario></Formulario> */}
-    <Hello text="Hello">
+    {/* Introdução aos componentes funcionais */}
+    {/* <Hello text="Hello">
       <h1>Hello</h1>
-    </Hello>
+    </Hello> */}
+    {/* Hooks em React */}
+    <AppNew></AppNew>
   </React.StrictMode>,
   document.getElementById('root')
 );
