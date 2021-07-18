@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Formulario } from './components/Formulario';
 // import App from './components/App';
 // import App2 from './components/App2';
 // import { App3 } from './components/App3';
 // import { App4 } from './components/App4';
 // import { App5 } from './components/App5';
-import { Lista, Item } from './components/Lista';
+// import { Lista, Item } from './components/Lista';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -24,10 +25,11 @@ ReactDOM.render(
     {/* Estudando ciclo de vida de componentes em React */}
     {/* <App5></App5> */}
     {/* Renderização de listas */}
-    <Lista>
+    {/* <Lista>
       <Item key={5} id={5} completo={false}>Teste1</Item>
       <Item key={6} id={6} completo={true}>Teste2</Item>
-    </Lista>
+    </Lista> */}
+    <Formulario></Formulario>
   </React.StrictMode>,
   document.getElementById('root')
 );
