@@ -1,7 +1,18 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 export const AppNew = () => {
-  const [nome, setNome] = useState('');
+  const [nome, setNome] = useState(undefined);
+
+  useEffect(
+    () => {
+      if (nome === undefined) {
+        setNome(sessionStorage.getItem('nome') || '');
+      }
+      else {
+        sessionStorage.setItem('nome', nome);
+      }
+    }, [nome]
+  );
   
   return (
     <>
