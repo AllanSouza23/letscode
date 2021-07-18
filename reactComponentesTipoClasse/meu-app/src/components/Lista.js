@@ -33,6 +33,7 @@ export class Lista extends React.Component {
 
         <ul>
           {this.state.items.map((item) => (<Item key={item.id} completo={item.completo}>{item.nome}</Item>) )}
+          {React.Children.map(this.props.children, child => child.type == Item ? child : null)}
         </ul>
       </>
     );
